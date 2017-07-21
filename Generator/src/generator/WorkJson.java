@@ -38,7 +38,8 @@ public class WorkJson {
             }
             
             if(attribute.length == 1){
-                construction = construction.replace("?","");
+                construction = construction.replace("    ?","");
+                construction = construction.replace("“?”","");
                 return construction;
             }
             for (int i = 1; i < attribute.length; i++) {
@@ -72,7 +73,6 @@ public class WorkJson {
             if(!(str[j].length()==4 && str[j].contains("    "))){
                 text = text + str[j] + "\n";
             }
-            
         }
         while (text.contains("“”")){
             String rem = "";
