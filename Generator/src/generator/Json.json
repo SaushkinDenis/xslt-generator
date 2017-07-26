@@ -1,8 +1,6 @@
 {
 "ЦИКЛ": 
-"<xsl:for-each select=“?” >
-    ?
-</xsl:for-each>",
+"<xsl:for-each select=“?” >\n    ?\n</xsl:for-each>",
 
 "РАЗДЕЛИТЕЛЬ": 
 "<xsl:decimal-format name=“?” decimal-separator=“?” />",
@@ -16,44 +14,25 @@
 "<xsl:sort select=“?” order=“?” />",
 
 "УСЛОВИЕ": 
-"<xsl:if test=“?” >
-    ?
-</xsl:if>",
+"<xsl:if test=“?” >\n    ?\n</xsl:if>",
 
 "ВЫБОР": 
-"<xsl:choose>
-  <xsl:when test=“?” > 
-    ? 
-  </xsl:when>
-  <xsl:when test=“?” > 
-    ?
-  </xsl:when>
-  <xsl:otherwise>
-    ?
-  </xsl:otherwise>
-</xsl:choose>",
+"<xsl:choose>\n  <xsl:when test=“?” >\n    ?\n  </xsl:when>\n  <xsl:when test=“?” >\n    ?\n  </xsl:when>\n  <xsl:otherwise>\n    ?\n</xsl:otherwise>\n</xsl:choose>",
 
 "ПЕРЕМЕННАЯ": 
-"<xsl:variable name=“?” select=“?”>
-</xsl:variable>",
+"<xsl:variable name=“?” select=“?”>\n</xsl:variable>",
 
 "ШАБЛОН": 
-"<xsl:template match=“?” name=“?” 
-    ?
-</xsl:template>",
+"<xsl:template match=“?” name=“?”>\n    ?\n</xsl:template>",
 
 "АТРИБУТ": 
-"<xsl:attribute name=“?”> 
-    ?
-</xsl:attribute>",
+"<xsl:attribute name=“?”>\n    ?\n</xsl:attribute>",
 
 "ВЫЗОВ_ШАБЛОНА": 
-"<xsl:apply-templates select=“?” 
-</xsl:apply-templates>",
+"<xsl:apply-templates select=“?”>\n</xsl:apply-templates>",
 
 "ИМПОРТ_ШАБЛОНА": 
-"<xsl:import href=“?” />
-<xsl:apply-imports/>",
+"<xsl:import href=“?” />\n<xsl:apply-imports/>",
 
 "РАЗМЕР": "last(?)",
 
@@ -66,28 +45,22 @@
 "СУММА": "sum(?)",
 
 "КОПИРОВАТЬ_АТРИБУТ": 
-"<xsl:copy use-attribute-sets=“?” >
-    <xsl:value-of select=“?” />
-</xsl:copy",
+"<xsl:copy use-attribute-sets=“?” >\n    <xsl:value-of select=“?” />\n</xsl:copy",
 
 "ЛОГ_ЗНАЧ": "boolean(?)",
 
 "КОПИРОВАТЬ": 
-"<xsl:copy select=“?” />
-<xsl:copy/>",
+"<xsl:copy select=“?” />\n<xsl:copy/>",
 
 "НЕ": "not(?)",
 
 "КОПИРОВАТЬ_ВСЕ": 
-"<xsl:copy-of select=“?” />
-<xsl:copy/>",
+"<xsl:copy-of select=“?” />n<xsl:copy/>",
 
 "ЯЗЫК": "lang(?)",
 
 "ТЕКСТ": 
-"<xsl:text>
-    ?
-</xsl:text>",
+"<xsl:text>\n    ?\n</xsl:text>",
 
 "КОНКАТ": "concat(?)",
 	
